@@ -3,9 +3,9 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" type="text/css" href="Style.css">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="./style/Style.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   
   <title>Test</title>
@@ -58,14 +58,15 @@
 
 
 
+
 <nav class="navbar navbar-inverse"  data-spy="affix" data-offset-top="350">
   <div class="container-fluid">
     <div class="navbar-header">
- </div>
+    </div>
     <ul class="nav navbar-nav">
-      <li class="active" id="1" ><a href="#home" onclick="myFunc()">Page 1</a></li>
-      <li><a href="#news" id="2" >Page 2</a></li>
-      <li><a href="#contact" id="3" >Page 3</a></li>
+      <li onClick="myFunc('1')" id="1" class="active"><a href="#home" >Page 1</a></li>
+      <li onClick="myFunc('2')" id="2"><a href="#news"  >Page 2</a></li>
+      <li onClick="myFunc('3')" id="3"><a href="#contact" >Page 3</a></li>
     </ul>
   </div>
 </nav>
@@ -88,7 +89,7 @@
 
 
 
-<script src="Script.js"></script>
-<script src="func.js"></script>
+<script src="./library/Script.js"></script>
+<script src="./script/func.js"></script>
 </body>
 </html>
