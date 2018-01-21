@@ -1,0 +1,133 @@
+
+*
+{
+margin: 0px;
+padding: 0px;
+}
+/*header
+{
+	color: gray;
+
+	font-weight:bold;
+
+	text-align: center;
+
+	background-image:url(Naruto.jpg);
+
+	background-size: cover;
+
+	height: 300px;
+
+    position: relative;
+
+
+
+}*/
+
+.Heading
+{
+/* margin: auto;
+ top: 0px;*/
+/* bottom: 50px;
+ left: 50px;
+ right: 50px;*/
+
+
+/* position: absolute;*/
+
+}
+
+/*#navbar {
+  overflow: hidden;
+  background-color: #333;
+ position: absolute;
+ margin-top: 300px;
+ width: 100%;
+}*/
+
+/* Navbar links */
+/*#navbar a {
+  
+  display: inline-block; 
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+  width: 30%;
+}*/
+/*#navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}*/
+
+/*#navbar a:active {
+  background-color: gray;
+  color: red;
+} */
+
+/*.stick {
+  position: fixed;
+  top: 0;
+  width: 100%
+}*/
+
+#ToWrite
+{
+
+	background-image: url("Write.jpg");
+	
+	background-size: cover;
+	margin-top:50px;
+	height: 1080px;
+	position: relative;
+
+}
+#Overlay
+{
+	background-color: rgba(26, 0, 0, 0.28);
+    margin-top:50px;
+	height: 100%;
+	text-align: center;
+/*	position: absolute;*/
+	width: 100%;
+top:0;
+left:0;
+}
+
+/*.ColorChange
+{
+	background-color: gray;
+	color:black;
+}*/
+#Overlay p{
+
+	background-color: red;
+
+	color: white;
+	font-weight: bold;
+
+	margin-top :50px;
+	position: absolute;
+}
+
+  .affix 
+  {
+      top: 0;
+      width: 100%;
+      z-index: 9999 !important;
+  }
+
+  .affix + .container-fluid 
+  {
+      padding-top: 70px;
+  }
+
+#Bar
+{
+
+	display: block;
+	position: absolute;
+	margin-top: 300px;
+	width: 100%;
+}
+
