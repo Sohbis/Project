@@ -1,0 +1,119 @@
+       
+
+        .affix 
+          {
+            top:0;
+                          
+            width: 100%;
+                          
+            z-index: 9999 !important;
+          }
+        
+        .navbar 
+        {
+           margin-bottom: 0px;
+
+           z-index: 3;
+        }
+  
+        .affix ~ .container-fluid 
+        {
+           /*position: relative;*/
+          
+           top: 50px;
+        }
+
+        #box1{
+            height: 100vh;
+            width: 100%;
+            background-image: url(..Images/i1.jpg);
+            background-size: 100% 100%;
+            display: table;
+            background-attachment: fixed;
+            
+        }
+        #box2{
+            height: 100vh;
+            width: 100%;
+            background-image: url(../Images/i2.jpg);
+            background-size: 100% 100%;
+            display: table;
+            background-attachment: fixed;
+            /*position: relative;*/
+        }
+        #box3{
+            height: 100vh;
+            width: 100%;
+            background-image: url(../Images/i3.jpg);
+            background-size: 100% 100%;
+            display: table;
+            background-attachment: fixed;
+
+          /*  position: relative;*/
+        }
+        
+        h1{
+            font-family: arial black;
+            font-size: 50px;
+            color:white;
+            margin: 0px;
+            text-align: center;
+            display: table-cell;
+            vertical-align: middle;
+        }
+     
+
+
+        #header
+        {
+            position: absolute;
+            width: 100%;
+            z-index: 3;
+            text-align: center;
+            top: 50%;
+            font-size: 100px;
+            color: rgba(186, 186, 186, 0.9);
+        }
+
+ 
+         .pic
+        {
+            background-color: rgba(36, 83, 106, 0.85);
+            text-align:center;
+            font-size:large;
+            margin: 10px;
+            top: 124px;
+            height: 400px;
+            background-size: 100% 100%;
+            z-index: 3;
+        }
+
+          .pic1
+        {
+            top: 30px;
+            margin: 10px;
+            height: 300px;
+            background-size: 100% 100%;
+            z-index: 3;
+        }
+
+             .pic2
+        {
+            background-image: url(./Images/DP.JPG);
+            text-align:center;
+            font-size:large;
+            margin: 10px;
+            height: 300px;
+            width: 0px;
+            background-size:100% 100%;
+            background-repeat: no-repeat;
+
+            position: absolute;
+
+            z-index: 3;
+        }
+
+        #myNavbar a
+        {
+            color: white;
+        }
